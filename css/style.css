@@ -1,0 +1,341 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header , footer{
+    background-color: #F4F1ED;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.kmii{
+    font-size: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+.jakori{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 13px;
+}
+.jakori1{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 13px;
+}
+.jakor{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.header_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.headpic{
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 400px;
+    height: 250px;
+}
+.kmii2{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.kmii3{
+    font-size: 20px;
+}
+.auditorii{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.maininfa{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.audi{
+    font-size: 30px;
+}
+.audip{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.audi2{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+.vse{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 130px;
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F4F1ED;
+    margin-right: 40px;
+    width: 420px;
+}
+.imgblock{
+    height: 300px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.blockp{
+    font-size: 20px;
+    margin-top: 20px ;
+}
+.blocka{
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.onas{
+    width: 100%;
+    background-color: #F4F1ED;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.onasinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.onastext{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.onaslist{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.onasa{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 26px;
+    margin-left: 200px;
+}
+.contact{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contactinfo{
+    margin-bottom: 50px;
+}
+.contactp{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contactli{
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 20px;
+}
+.contactli2{
+    font-size: 25px;
+    list-style: none;
+    margin-top: 10px;
+}
+.map{
+    width: 800px;
+    height: 500px;
+}
+.auditories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.audblock{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F4F1ED;
+    margin-right: 30px;
+    width: 420px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 1366px) {
+    .headpic{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 400px;
+        height: 200px;
+    }
+    .maininfa{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .blocks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .block{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #F4F1ED;
+        margin-right: 20px;
+        width: 320px;
+        margin-top: 20px;
+    }
+    .imgblock{
+        height: 200px;
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .onastext{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .onaslist{
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .onasa{
+        text-decoration: none;
+        border: 1px solid black;
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+        width: 150px;
+        height: 26px;
+        margin-left: 50px;
+    }
+    .auditories{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .audblock{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #F4F1ED;
+        margin-right: 20px;
+        width: 320px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .headpic{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 300px;
+        height: 150px;
+    }
+    .map{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px ) {
+    .headpic{
+        display: none;
+    }
+    .header_info{
+        margin-top: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .maininfa{
+        margin-left: 80px;
+    }
+    .map{
+        width: 400px;
+        height: 250px;
+    }
+    .auditorii{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
